@@ -13,9 +13,9 @@
   text-align: center;
 }
 main > section#section > div > div.img , main > section#section > div > div#img , section.setion {
-  background-image: url(imagen.jpg);
+  background-image: url(luke-witter-rPNf1SOuvIQ-unsplash.jpg);
   background-size: cover;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(top, #a18cd1 0%, #fbc2eb 100%);
 }
 .img,#img{
   width: 500px;

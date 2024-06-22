@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 1000px;
+    background-color: white;
+    height: 360px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.imagen{
+    width: 270px;
+    height: 100%;
+    margin: 0 auto;
+    background: #e0c374;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(10px 10px 10px  #000);
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+.nombre{
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+.contenido{
+
+}
+.datos{
+    background: #cc6d6d;
+    display: block;
+    height: 30px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: beige;
+}
