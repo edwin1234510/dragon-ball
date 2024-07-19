@@ -1,13 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
-.{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+  --border-radius: 7px;
+  --font: #e0c374;
+  --font2: #6dccb3;
+}
+body{
+  background-image: url(casa-kame-de-dragon-ball-3963.webp);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
 .contenedor{
     width: 1000px;
-    background-color: white;
     height: 360px;
     margin: 20px auto;
     padding: 10px;
@@ -16,12 +26,12 @@
     width: 270px;
     height: 100%;
     margin: 0 auto;
-    background: #e0c374;
+    background: var(--font);
     display: inline-block;
     padding: 5px;
     margin: 0px 10px 0px 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 .img{
     height: 150px;
@@ -34,15 +44,15 @@
     text-align: left;
     padding: 0 0 0 20px;
 }
-.contenido{
-
-}
 .datos{
     background: #cc6d6d;
     display: block;
     height: 30px;
     width: 50px;
-    margin: 0 auto;
-    border-radius: 5px;
+    margin: 30px auto;
+    border-radius: var(--border-radius);
     color: beige;
+}
+.imagen:hover{
+  background-color: var(--font2);
 }
